@@ -1,0 +1,42 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  }
+body {
+  font-family:  'Verdana', serif;
+  line-height: 1.6;
+  padding: 20px;
+  background-color: #C9FFE5;
+}
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.profile-img {
+  width: 150px;
+  height: auto;
+  border-radius: 50%;
+}
+h1 {
+  margin-top: 10px;
+  font-family: cursive
+}
+
+.bio, .projects {
+  margin-bottom: 20px;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+}
+
+ul.about-indent {
+  list-style-type: square;
+  font-family: cursive
+}
+a:hover{
+text-decoration: underline;
+}
